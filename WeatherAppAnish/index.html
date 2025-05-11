@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="bg-light text-dark">
+    <div id="background"
+        class="min-vh-100 d-flex justify-content-center align-items-center flex-column bg-light text-dark text-center">
+        <h1 class="mb-4">Know Weather</h1>
+        <div class="input-group mb-4" style="max-width: 500px; width: 100%;">
+            <input id="city" type="text" class="form-control" placeholder="Enter city name" />
+        </div>
+        <div>
+            <button onclick="getWeather()" class="btn btn-primary">Submit</button>
+        </div>
+        <div id="weather" class="mb-4"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
